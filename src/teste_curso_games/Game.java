@@ -5,17 +5,11 @@ public class Game {
 	public static void main(String[] args) {
 		
 		Player player = new Player();
+		Elfinimigo elf = new Elfinimigo(10);
 		
-		player.perderVida();
+		elf.tomarDano();
 		
-		player.perderVida();
-		
-		player.ganharVida();
-		
-		System.out.println(player.vida);
-		
-		
-		
+		System.out.println(elf.getVida());
 		
 	}
 	
