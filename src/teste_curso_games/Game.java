@@ -5,12 +5,11 @@ public class Game {
 	public static void main(String[] args) {
 		String nome = "Eric";
 		int idade = 27;
+		double peso = 80.2;
 		
-		
-		nome = "Filisbino";
-		
-		System.out.println("Hello World "+ nome);
-		System.out.println("A idade é: " + idade);
+		if(nome.equals("Eric ")) {
+			System.out.println("Verdade");
+		}
 		
 	}
 	
